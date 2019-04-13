@@ -3,6 +3,7 @@
 
 yum install git -y
 git clone https://github.com/firehol/netdata.git --depth=1
+
 rpm -ivh http://mirrors.ustc.edu.cn/epel/epel-release-latest-7.noarch.rpm
 wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
 sed -i.bak 's/$releasever/7/g' /etc/yum.repos.d/CentOS-Base.repo 
